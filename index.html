@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>*|MC:SUBJECT|*</title>
+<title>*|RSSITEM:TITLE|*</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
 <style type="text/css">
@@ -73,7 +73,7 @@
 
 <!-- HIDDEN PREHEADER TEXT -->
 <div style="display: none; font-size: 1px; color: #000000; line-height: 1px; font-family: sans-serif; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden;">
-    *|MC:SUBJECT|*
+    *|RSSITEM:TITLE|*
 </div>
 
 
@@ -133,7 +133,8 @@
                           <table width="100%" border="0" cellspacing="0" cellpadding="0">
                             <tr>
                               <td>
-                                <img mc:edit="hero" mc:label="Max width 600px" src="hero.png" width="600" border="0" alt="" style="display: block; padding: 0; color: #000000; background-color: #ffffff; text-decoration: none; font-family: Helvetica, arial, sans-serif; font-size: 24px; width: 600px;" class="img-max">
+                                <!-- <img mc:edit="hero" mc:label="Max width 600px" src="hero.png" width="600" border="0" alt="" style="display: block; padding: 0; color: #000000; background-color: #ffffff; text-decoration: none; font-family: Helvetica, arial, sans-serif; font-size: 24px; width: 600px;" class="img-max"> -->
+                                *|RSSITEM:IMAGE|*
                               </td>
                             </tr>
                           </table>
@@ -168,9 +169,9 @@
                               <td>
                                   <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                       <tr>
-                                          <td mc:edit="body" align="left" style="padding: 0 0 50px 75px; font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #666666;" class="padding-copy">It's so often said that a cobbler always has the worst shoes on account of always fixing everybody else's. Well we never really liked that excuse for design agencies, and as we promised to always stay on top of our game we have done just that - built our own <a href="#" style="font-weight: bold; color: #000000; text-decoration: underline;">brand new website</a>.<br>
-                                          <br>
-                                          Come and have a look around, and please feel free to tell us what you think.</td>
+                                          <td mc:edit="body" align="left" style="padding: 0 0 50px 75px; font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #666666;" class="padding-copy">
+                                            *|RSSITEM:CONTENT_FULL|*
+                                          </td>
                                       </tr>
                                   </table>
                               </td>
@@ -186,7 +187,7 @@
                                     <table border="0" cellspacing="0" cellpadding="0" class="responsive-table">
                                       <tr>
                                         <td align="left" style="padding: 0 0 25px 75px;" class="padding-copy">
-                                          <a mc:edit="main_button" href="#" target="_blank" style="font-size: 16px; font-family: Helvetica, Arial, sans-serif; font-weight: bold; text-transform: uppercase; color: #ffffff; text-decoration: none; background-color: #333333; border-top: 15px solid #333333; border-bottom: 15px solid #333333; border-left: 20px solid #333333; border-right: 20px solid #333333; display: inline-block;" class="mobile-button">Take a look  &raquo;</a>
+                                          <a mc:edit="main_button" href="#" target="_blank" style="font-size: 16px; font-family: Helvetica, Arial, sans-serif; font-weight: bold; text-transform: uppercase; color: #ffffff; text-decoration: none; background-color: #333333; border-top: 15px solid #333333; border-bottom: 15px solid #333333; border-left: 20px solid #333333; border-right: 20px solid #333333; display: inline-block;" class="mobile-button">*|RSSITEM:CONTENT|*  &raquo;</a>
                                         </td>
                                       </tr>
                                     </table>
@@ -203,60 +204,6 @@
     </tr>
 </table>
 
-
-
-
-<!-- BLOG POST SECTION -->
-<table border="0" cellpadding="0" cellspacing="0" width="100%">
-    <tr>
-        <td bgcolor="#f9f9f9" align="center" style="padding: 75px 0 75px 75px;" class="section-padding">
-            <table border="0" cellpadding="0" cellspacing="0" width="525" class="responsive-table">
-                <tr>
-                    <td>
-                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                            <tr>
-                                <td>
-                                    <!-- COPY -->
-                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                                        <tr>
-                                            <td align="left" style="font-size: 13px; font-family: Helvetica, Arial, sans-serif; color: #000000;" class="padding-copy">FROM OUR BLOG</td>
-                                        </tr>
-                                        <tr>
-                                            <td mc:edit="blog_post_title" align="left" style="font-size: 28px; font-family: Helvetica, Arial, sans-serif; font-weight: bold; color: #000000; padding-top: 25px;" class="padding-copy">Why we changed our website</td>
-                                        </tr>
-                                        <tr>
-                                            <td mc:edit="blog_post_excerpt" align="left" style="padding: 25px 0 0 0; font-size: 14px; line-height: 22px; font-family: Helvetica, Arial, sans-serif; color: #000000;" class="padding-copy">Websites are a massive part of what we sell, so our own website has to stand up as a prime example of what we can do. We are big believers in practicing what your preach, so the cobblers shoe analogy doesn’t fly here.<br>
-                                            <br>
-                                            Find out why we just launched a new site.</td>
-                                        </tr>
-                                    </table>
-                                </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                  <!-- BULLETPROOF BUTTON -->
-                                  <table width="100%" border="0" cellspacing="0" cellpadding="0" class="mobile-button-container">
-                                      <tr>
-                                          <td align="left" style="padding: 25px 0 0 0;" class="padding-copy">
-                                              <table border="0" cellspacing="0" cellpadding="0" class="responsive-table">
-                                                  <tr>
-                                                      <td align="left">
-                                                        <a mc:edit="blog_post_button" href="#" target="_blank" style="font-size: 14px; font-family: Helvetica, Arial, sans-serif; font-weight: bold; text-transform: uppercase; color: #ffffff; text-decoration: none; background-color: #333333; border-top: 10px solid #333333; border-bottom: 10px solid #333333; border-left: 15px solid #333333; border-right: 15px solid #333333; display: inline-block;" class="mobile-button">Read this post  &raquo;</a>
-                                                      </td>
-                                                  </tr>
-                                              </table>
-                                          </td>
-                                      </tr>
-                                  </table>
-                              </td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-            </table>
-        </td>
-    </tr>
-</table>
 
 
 
